@@ -1,8 +1,6 @@
 # api-partners-js
 
-API for TalkBank's partners
-
-To install run 'npm install', then require the Client class
+To install run `npm install`, then require the Client class
 
 ```
 const Client = require('./Client');
