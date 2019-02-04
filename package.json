@@ -1,0 +1,11 @@
+{
+  "name": "node_wrapper_for_partners_api",
+  "version": "1.0.0",
+  "main": "Client.js",
+  "author": "Vlad <vladisslaww@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "js-sha256": "^0.9.0",
+    "request": "^2.88.0"
+  }
+}
