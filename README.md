@@ -1,25 +1,30 @@
 # api-partners-js
+
 API for TalkBank's partners
 
-To install run 'npm install'
-then require the Client class
+To install run 'npm install', then require the Client class
+
+```
 const Client = require('./Client');
 
 const partnerId = '000a0000-a00a-00a0-a000-000000000000'
 const token = 'a0000000a00aa000aa0000a0000a0a0000aaaaa0aa0aa000a0aaaa00a0000a00'
 
-
-const client = new Client(partnerId, token); 
+const client = new Client(partnerId, token);
+```
 
 Request are made via callback style
 
+```
   client.getCards()
     .on('data', (data) => {
       return JSON.parse(data);
     });
-    
+```
+
 Post parameters are sent in json format
 
+```
   const person =
     {
       "client_id": 1,
@@ -58,5 +63,4 @@ Post parameters are sent in json format
         ]
       }
     };
-    
-    
+```
